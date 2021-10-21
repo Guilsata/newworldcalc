@@ -1,0 +1,9 @@
+<p>Ce que je veux Craft</p>
+<select name="items">
+  <option value="">-- Item --</option>
+  <option *ngFor="let item of listitems" [value]="item.name">
+    {{ item.name }}
+  </option>
+</select>
+<input type="number" name="Combien ?" />
+<button>Calcule</button>

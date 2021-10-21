@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --font-family: "Roboto", sans-serif;
+  --primary: #4b8077;
+  --secondary: #c3fcf1;
+  --accent: #00c9ad;
+  --color-background: #ffebcd;
+  --lightgray: #ddd;
+  --text-regular: #443f3b;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-regular);
+  background-color: var(--color-background);
+}
